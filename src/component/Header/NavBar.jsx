@@ -15,7 +15,7 @@ const NavBar = () => {
                     <Nav className="me-auto">
                         <Nav.Link as={NavLink} to="/">Home</Nav.Link>
                         {/* đi tới /admin/createUser */}
-                        <Nav.Link as={NavLink} to="/admin/createUser">
+                        <Nav.Link as={NavLink} to="/admin/user">
                             Create
                         </Nav.Link>
                     </Nav>

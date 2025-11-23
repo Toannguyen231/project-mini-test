@@ -12,7 +12,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './component/HomeMini/HomeMini.jsx';
 import AdminPage from './component/Admin/component/AdminPage.jsx';
 import ModalCreateUser from './component/Admin/component/content/ModalCreateUser.jsx';
-
+import User from './component/Admin/component/User.jsx';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
@@ -27,7 +27,7 @@ root.render(
           {/* /admin */}
           <Route path='admin' element={<AdminPage />}>
             {/* /admin/createUser */}
-            <Route path='createUser' element={<ModalCreateUser />} />
+            <Route path='user' element={<User />} />
           </Route>
         </Route>
       </Routes>
